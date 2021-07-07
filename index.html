@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flight Search Engine</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h3 class="text">Flight Search Engine</h3>
+            <div class="portion">
+                <div class="left">
+                    <button id="oneway" class="btn">One Way</button>
+                    <button id="rtn" class="btn">Return</button><br>
+                    <form action="" class="group">
+                        <input type="text" id="input-group" placeholder="Enter Origin City"><br>
+                        <input type="text" id="input-group" placeholder="Enter Desitination City"><br>
+                        <input type="number" id="input-group" placeholder="Passengers"><br>
+                        <input type="text" id="input-group" placeholder="Departure Date"><br>
+                        <input type="text" id="input-group1" placeholder="Return Date"><br>
+                       
+                        <input type="submit" class="submit" id="input-group" value="Search">
+                    </form>
+                    <div class="type">
+                        <h5>Refine Flight Search<br> 0 to 10000</h5>
+                        <input type="range" list="tickmarks">
+
+                        <datalist id="tickmarks">
+                            <option value="0" label="0%"></option>
+                            <option value="10"></option>
+                            <option value="20"></option>
+                            <option value="30"></option>
+                            <option value="40"></option>
+                            <option value="50" label="50%"></option>
+                            <option value="60"></option>
+                            <option value="70"></option>
+                            <option value="80"></option>
+                            <option value="90"></option>
+                            <option value="100" label="100%"></option>
+                        </datalist>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="area">
+                        <h2 class="search">Pune>Delhi>Pune</h2>
+                        <span>Depart: 1st Jan 2012</span><br>
+                        <span>Return: 10th Jan 2012</span>
+                    </div>
+                   <div class="content">
+                    <div class="value">
+                        <div class="center">
+                            <h4>Rs. 9,500</h4>
+                            <p>AI-202</p>
+                            <h6>PNQ > DEL</h6>
+                            <h6>Depart: 10:00 AM</h6>
+                            <h6>Arrive: 12:00 AM</h6>
+                        </div>
+                        <div class="center2">
+                            <p>AI-203</p>
+                            <h6>DEL > PNQ </h6>
+                            <h6>Depart: 08:00 PM</h6>
+                            <h6>Arrive: 11:00 PM</h6>
+                        </div>
+                        <div class="center">
+                            <img src="2.jpg" alt=""><br>
+                            <a href="">Book this flight</a>
+                        </div>
+                        
+                    </div>
+                    <div class="value">
+                        <div class="center">
+                            <h4>Rs. 9,500</h4>
+                            <p>AI-202</p>
+                            <h6>PNQ > DEL</h6>
+                            <h6>Depart: 10:00 AM</h6>
+                            <h6>Arrive: 12:00 AM</h6>
+                        </div>
+                        <div class="center2">
+                            <p>AI-203</p>
+                            <h6>DEL > PNQ </h6>
+                            <h6>Depart: 08:00 PM</h6>
+                            <h6>Arrive: 11:00 PM</h6>
+                        </div>
+                        <div class="center">
+                            <img src="2.jpg" alt=""><br>
+                            <a href="">Book this flight</a>
+                        </div>
+                        
+                    </div>
+                    <div class="value">
+                        <div class="center">
+                            <h4>Rs. 9,500</h4>
+                            <p>AI-202</p>
+                            <h6>PNQ > DEL</h6>
+                            <h6>Depart: 10:00 AM</h6>
+                            <h6>Arrive: 12:00 AM</h6>
+                        </div>
+                        <div class="center2">
+                            <p>AI-203</p>
+                            <h6>DEL > PNQ </h6>
+                            <h6>Depart: 08:00 PM</h6>
+                            <h6>Arrive: 11:00 PM</h6>
+                        </div>
+                        <div class="center">
+                            <img src="2.jpg" alt=""><br>
+                            <a href="">Book this flight</a>
+                        </div>
+                        
+                    </div>
+                  
+
+                   </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
