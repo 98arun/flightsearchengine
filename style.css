@@ -16,7 +16,6 @@
 }
 .row{
     background-color: #000;
-    /* height:620px; */
     width:700px;
     margin:auto;
     opacity: 0.7;
@@ -46,6 +45,9 @@
     padding: 5px;
     margin: 10px 3px;
     cursor: pointer;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
 }
 .group{
     border: 2px solid white;
@@ -114,7 +116,8 @@ form input{
 
 
 @media screen and (max-width: 800px) {
-
+    .container {
+        height: 200vh;}
     .row {
         width: 450px;
         top: 10%;
@@ -139,11 +142,10 @@ form input{
 
 
 @media screen and (max-width: 499px) {
-    /* .container {
-            height: 1297px;} */
-            .container {
-                height: 170vh;
-                background-position: inherit;
+   
+    .container {
+        height: 220vh;
+        background-position: inherit;
             }  
     .row {
         width: 250px;}
